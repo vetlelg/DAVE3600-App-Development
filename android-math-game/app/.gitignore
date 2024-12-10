@@ -1,0 +1,62 @@
+# Android Studio
+/.idea
+*.iml
+/.gradle
+/local.properties
+
+# Gradle
+.gradle/
+/build/
+**/build/
+/app/build/
+
+# Log files
+*.log
+
+# Android Studio Generated Files
+/captures/
+/output.json
+/gradle-app.setting
+
+# Android dependencies
+/.cxx/
+/.externalNativeBuild
+/.cxx/
+/local.properties
+
+# IntelliJ project files
+/.idea/
+/*.iml
+
+# Keystore files
+*.keystore
+*.jks
+
+# Personal config files
+*.sublime-workspace
+*.sublime-project
+/.vscode
+
+# APK files
+*.apk
+*.ap_
+
+# Kotlin build files
+/.kotlin/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Exclude the gradle-wrapper.jar file
+gradle/wrapper/gradle-wrapper.jar
+
+# Generated files
+**/debug.keystore
+
+# Ignore any generated XML files
+**/generated
+
+# Exclude any .bak files
+*.bak

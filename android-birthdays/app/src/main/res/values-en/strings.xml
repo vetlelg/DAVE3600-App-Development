@@ -1,0 +1,39 @@
+<resources>
+    <!-- Strings for English language -->
+    <string name="app_name">Birthday App</string>
+    <!-- Main Activity Buttons -->
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="start_receiver">Start Receiver</string>
+    <string name="send_sms_broadcast">Send SMS Broadcast</string>
+    <string name="send_sms">Send SMS</string>
+
+    <!-- Content Descriptions for Floating Action Buttons -->
+    <string name="preferences_description">Preferences</string>
+    <string name="add_friend_description">Add Friend</string>
+
+    <!-- Add Friend Activity -->
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="birthday">Birthday</string>
+    <string name="save">Save</string>
+    <string name="select_date">Select Date</string>
+
+    <!-- Edit Friend Activity -->
+    <string name="edit_friend">Edit Friend</string>
+
+    <!-- Friend List Item -->
+    <string name="friend_name">Friend Name</string>
+    <string name="phone_prefix">Phone:</string>
+    <string name="birthday_prefix">Birthday:</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <!-- Preferences -->
+    <string name="sms_enabled">Enable SMS Service</string>
+    <string name="sms_enabled_summary">The service will automatically send birthday SMS to your friends</string>
+    <string name="sms_time">SMS Time</string>
+    <string name="sms_time_summary">Select the time for sending the birthday SMS (default: 08:00)</string>
+    <string name="sms_message">Birthday Message</string>
+    <string name="sms_message_summary">Set the message for the birthday SMS</string>
+</resources>

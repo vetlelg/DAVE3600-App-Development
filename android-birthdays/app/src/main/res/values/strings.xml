@@ -1,0 +1,39 @@
+<resources>
+    <!-- Strings for Norwegian language -->
+    <string name="app_name">Bursdagsapp</string>
+    <!-- Main Activity Buttons -->
+    <string name="start_service">Start service</string>
+    <string name="stop_service">Stopp service</string>
+    <string name="start_receiver">Start receiver</string>
+    <string name="send_sms_broadcast">Send SMS broadcast</string>
+    <string name="send_sms">Send SMS</string>
+
+    <!-- Content Descriptions for Floating Action Buttons -->
+    <string name="preferences_description">Preferanser</string>
+    <string name="add_friend_description">Legg til venn</string>
+
+    <!-- Add Friend Activity -->
+    <string name="name">Navn</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="birthday">Bursdag</string>
+    <string name="save">Lagre</string>
+    <string name="select_date">Velg dato</string>
+
+    <!-- Edit Friend Activity -->
+    <string name="edit_friend">Rediger venn</string>
+
+    <!-- Friend List Item -->
+    <string name="friend_name">Vennens navn</string>
+    <string name="phone_prefix">Telefon:</string>
+    <string name="birthday_prefix">Bursdag:</string>
+    <string name="edit">Rediger</string>
+    <string name="delete">Slett</string>
+
+    <!-- Preferences -->
+    <string name="sms_enabled">Aktiver SMS-tjeneste</string>
+    <string name="sms_enabled_summary">Tjenesten vil automatisk sende bursdag-SMS til vennene dine</string>
+    <string name="sms_time">SMS-tidspunkt</string>
+    <string name="sms_time_summary">Velg tidspunkt for å sende bursdag-SMS (standard: 08:00)</string>
+    <string name="sms_message">Bursdagsmelding</string>
+    <string name="sms_message_summary">Angi meldingen som skal sendes</string>
+</resources>

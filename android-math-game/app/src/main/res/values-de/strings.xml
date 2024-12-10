@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- German translation -->
+    <!-- App title -->
+    <string name="app_name">Mathematikspiel</string>
+
+    <!-- Main activity strings -->
+    <string name="start">Spiel starten</string>
+    <string name="preferences">Einstellungen</string>
+    <string name="about">Über das Spiel</string>
+
+    <!-- game activity strings -->
+    <string name="submit">Absenden</string>
+    <string name="correct_answer">Richtig!</string>
+    <string name="incorrect_answer">Falsch, versuch es nochmal!</string>
+    <string name="game_over">Spiel ist vorbei</string>
+    <string name="correct">Richtig: </string>
+    <string name="feedback">Rückmeldung: </string>
+    <string name="next">Nächste</string>
+
+
+    <!-- about activity strings -->
+    <string name="about_title">Über das Spiel</string>
+    <string name="about_description">Dies ist ein einfaches Mathematikspiel, um Addition zu lernen. Dir werden zufällige Additionsaufgaben angezeigt, und du musst deine Antworten einreichen. Viel Glück!</string>
+
+    <!-- Settings activity strings -->
+    <string name="choose_number_of_questions">Wählen Sie die Anzahl der Fragen</string>
+    <string name="number_of_questions">Anzahl der Fragen</string>
+    <string-array name="number_of_questions">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string name="language">Sprache</string>
+    <string name="choose_language">Sprache auswählen</string>
+    <string-array name="languages">
+        <item>Norwegisch</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="languages_values">
+        <item>no</item>
+        <item>de</item>
+    </string-array>
+
+    <!-- Numbers -->
+    <string name="number_0">0</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+
+    <!-- End game dialog strings -->
+    <string name="end_game_title">Ausfahrt</string>
+    <string name="early_end_game_message">Bist du sicher, dass du das Spiel beenden möchtest?</string>
+    <string name="end_game_message">Keine weiteren Fragen verfügbar. Möchten Sie das Spiel beenden?</string>
+    <string name="end_game_yes">Ja</string>
+    <string name="end_game_no">Nein</string>
+
+    <!-- String-array containing math questions -->
+    <string-array name="questions">
+        <item>5 + 17</item>
+        <item>2 + 9</item>
+        <item>70 + 1</item>
+        <item>50 + 50</item>
+        <item>5 + 5</item>
+        <item>10 + 57</item>
+        <item>260 + 912</item>
+        <item>10 + 30 + 1</item>
+        <item>5 + 1 + 20</item>
+        <item>9 + 0 + 1</item>
+        <item>11 + 11</item>
+        <item>13 + 40</item>
+        <item>1 + 1</item>
+        <item>100 + 100</item>
+        <item>123 + 321</item>
+    </string-array>
+
+    <!-- String-array containing math answers -->
+    <string-array name="answers">
+        <item>22</item>
+        <item>11</item>
+        <item>71</item>
+        <item>100</item>
+        <item>10</item>
+        <item>67</item>
+        <item>1172</item>
+        <item>41</item>
+        <item>26</item>
+        <item>10</item>
+        <item>22</item>
+        <item>53</item>
+        <item>2</item>
+        <item>200</item>
+        <item>444</item>
+    </string-array>
+</resources>

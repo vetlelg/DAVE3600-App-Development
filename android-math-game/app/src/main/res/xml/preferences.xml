@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="language"
+        android:title="@string/language"
+        android:summary="@string/choose_language"
+        android:entries="@array/languages"
+        android:entryValues="@array/languages_values"
+        android:defaultValue="no" />
+    <ListPreference
+        android:key="number_of_questions"
+        android:title="@string/number_of_questions"
+        android:summary="@string/choose_number_of_questions"
+        android:entries="@array/number_of_questions"
+        android:entryValues="@array/number_of_questions"
+        android:defaultValue="5" />
+</PreferenceScreen>

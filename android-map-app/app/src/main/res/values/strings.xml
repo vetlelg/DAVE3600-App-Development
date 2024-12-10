@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mappe3</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="description">Beskrivelse</string>
+    <string name="something_positive">Skriv noe positivt om stedet</string>
+    <string name="create">Registrer</string>
+    <string name="cancel">Avbryt</string>
+    <string name="create_marker">Registrer sted</string>
+</resources>

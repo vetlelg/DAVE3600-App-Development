@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Switch button used to enable/disable SMS service -->
+    <SwitchPreference
+        android:key="sms_enabled"
+        android:title="@string/sms_enabled"
+        android:summary="@string/sms_enabled_summary"
+        android:defaultValue="false" />
+
+    <!-- Custom Time picker preference element used to set the time to send the SMS -->
+    <com.s339862.birthdays.TimePreference
+        android:key="sms_time"
+        android:title="@string/sms_time"
+        android:defaultValue="08:00"
+        android:summary="@string/sms_time_summary" />
+
+    <!-- EditText preference element used to set the message to send -->
+    <EditTextPreference
+        android:key="sms_message"
+        android:title="@string/sms_message"
+        android:summary="@string/sms_message_summary"
+        android:defaultValue="Happy Birthday!" />
+</PreferenceScreen>
